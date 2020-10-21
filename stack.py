@@ -21,7 +21,8 @@ class Stack:
   def __str__(self):
     return str(self.items)
 
-# Code used if class is the main
+# Code used if file is the main
+# Imports will avoid this code
 if __name__ == "__main__":
   stack = Stack()
   print(stack)
